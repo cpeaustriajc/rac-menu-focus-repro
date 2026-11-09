@@ -1,0 +1,9 @@
+body { font-family: system-ui, sans-serif; margin: 2rem; }
+section { margin-bottom: 2rem; }
+.row { display: flex; gap: 0.5rem; align-items: center; }
+.popover { background: white; border: 1px solid #888; padding: 4px; }
+.popover [role="menuitem"] { padding: 4px 12px; outline: none; }
+.popover [role="menuitem"][data-focused] { background: #ddd; }
+.animated[data-exiting] { animation: fade-out 300ms forwards; }
+@keyframes fade-out { to { opacity: 0; } }
+output { display: block; margin-top: 1rem; font-family: monospace; }
